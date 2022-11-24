@@ -6,8 +6,8 @@ const Header = () => {
     <div className={classes.header}>
       <video src={video} autoPlay loop muted />
       <div className={classes.content}>
-        <p className={classes.contentp}>Hey! I'm Martin Pham, a Front-end Web Developer from Toronto, Canada.</p>
-        <p className={classes.contentp}>I have a passion for creating captivating web-applications through meaningful and engaging user-experiences.</p>
+        <p className={classes.contentp}>Hello, I'm Martin Pham.</p>
+        <p className={classes.contentp}>I'm a Front-end Web Developer based in Toronto, Canada.</p>
       </div>
     </div>
   );
