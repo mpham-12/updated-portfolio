@@ -1,0 +1,17 @@
+.sidebar{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  position: fixed;
+}
+
+img{
+  color: black;
+  width: 40px;
+  /* height: 80px; */
+}
