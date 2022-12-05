@@ -21,7 +21,7 @@ const Skills = () => {
       <div className={classes.content}>
         {technologies.map((tech, i) => {
           return <span className={classes.tech} key={i}>
-            <span className={classes.bullet}>&#8227;</span> {tech}
+            <span className={classes.bullet}>&#8227;</span> <span className={classes.techName}>{tech}</span>
           </span>
         })}
 

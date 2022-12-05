@@ -20,7 +20,7 @@
 }
 
 .bullet {
-	font-size: 40px;
+	font-size: 30px;
 	color: rgb(210, 142, 97);
 	margin-right: 3px;
 }
@@ -30,4 +30,28 @@
 	align-items: center;
 	/* justify-content: center; */
 	margin-right: 20px;
+  font-size: 18px;
+}
+
+.techName{
+  font-weight: 300;
+    background-image: linear-gradient(
+      to right,
+      #975c22,
+      rgb(68, 64, 64) 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.techName:hover{
+  background-position: 0;
+}
+.techName:hover::before {
+  width: 100%;
 }
