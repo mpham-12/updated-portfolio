@@ -2,7 +2,7 @@
 	padding-top: 50px;
 	padding-left: 80px;
 	margin-bottom: 50px;
-  width: 100vw;
+  /* width: 100vw; */
 }
 .heading {
 	color: #a49c9c;
@@ -11,11 +11,12 @@
 
 .content {
 	color: rgb(71, 70, 70);
-	margin: 0px 130px;
+	margin: 0px 50px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+  line-height: 40px;
 }
 
 .bullet {
