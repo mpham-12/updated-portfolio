@@ -13,7 +13,8 @@ const technologies = [
   'Shopify',
   'Squarespace',
   'Sanity IO'
-]
+];
+
 const Skills = () => {
   return (
     <div className={classes.skills}>

@@ -11,8 +11,8 @@ function App() {
       <Header />
       <SideBar />
       <About/>
-      <Projects/>
       <Skills/>
+      <Projects/>
     </div>
   );
 }
