@@ -14,7 +14,7 @@
 	border-bottom-right-radius: 25px;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
-	box-shadow: 12px 0 15px -4px rgba(174, 174, 174, 0.5);
+	box-shadow: 12px 0 15px -4px rgba(140, 140, 140, 0.1);
 
 }
 
