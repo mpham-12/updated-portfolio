@@ -1,8 +1,49 @@
-.projectImage{
-  border: 1px solid black;
-  width: 300px;
-  height: 200px;
+.project {
+	border: 1px solid transparent;
+	width: 300px;
+	height: 200px;
+	position: relative;
 }
 
+.projectImage {
+	display: block;
+	/* opacity: 0.6; */
+	transition: 0.7s ease;
+	backface-visibility: hidden;
+	height: 100%;
+	width: 100%;
+}
 
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	/* transition: 0.7s ease; */
+	transition: opacity 0.45s;
+  backdrop-filter: blur(3px);
+}
+.overlay:hover {
+	opacity: 1;
+}
 
+.overlay > * {
+	transform: translateY(20px);
+	transition: 0.45s;
+}
+.overlay:hover > * {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.title {
+	font-weight: 200;
+	font-size: 2em;
+}
