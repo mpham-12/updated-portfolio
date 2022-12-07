@@ -1,11 +1,11 @@
 import classes from './Project.module.css'
 
-const Project = () => {
+const Project = (props) => {
   return (
     <div className={classes.project}>
-      <img className={classes.projectImage} src="example_project.png" alt="" />
+      <img className={classes.projectImage} src={props.image} alt="" />
       <div className={classes.overlay}>
-        <h2 className={classes.title}>Project 1</h2>
+        <h2 className={classes.title}>{props.title}</h2>
       </div>
     </div>
   );
