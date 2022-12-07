@@ -4,7 +4,7 @@ import classes from './Projects.module.css'
 const projects = [
   {
     title: 'Rest & Press',
-    image: './juiceApp.png',
+    image: './juice.png',
     description: '',
     techStack: '',
     githubUrl: '',
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: 'PluggedIn',
-    image: './juiceApp.png',
+    image: './movie.png',
     description: '',
     techStack: '',
     githubUrl: '',
@@ -27,8 +27,8 @@ const projects = [
     liveUrl: '',
   },
   {
-    title: 'Rest & Press',
-    image: './juiceApp.png',
+    title: 'Day Trip',
+    image: './daytrip.png',
     description: '',
     techStack: '',
     githubUrl: '',

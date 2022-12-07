@@ -12,7 +12,7 @@
 
 .projectImage {
 	display: block;
-	/* opacity: 0.6; */
+	opacity: 0.85;
 	transition: 0.7s ease;
 	backface-visibility: hidden;
 	height: 100%;
