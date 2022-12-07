@@ -57,3 +57,21 @@
   width: 200px;
   height: 300px;
 }
+
+.githubUrl{
+color: rgb(35, 35, 35);
+text-decoration: none;
+border: 1px solid rgb(35, 35, 35);
+border-radius: 8px;
+padding: 5px 12px;
+margin-right: 20px;
+}
+
+.liveUrl{
+text-decoration: none;
+color: white;
+background-color: rgb(35, 35, 35);
+border-radius: 8px;
+padding: 6px 24px;
+border: 1px solid rbg(35,35,35);
+}

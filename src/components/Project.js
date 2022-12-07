@@ -17,8 +17,8 @@ const Project = (props) => {
     <h2>{props.title}</h2>
     <img className={classes.modalImage} src={props.image} alt="" />
     <p>{props.description}</p>
-    <a href={props.github} target='_blank'>Learn More</a>
-    <a href={props.liveLink} target='_blank'>Live App</a>
+    <a className={classes.githubUrl} href={props.github} target='_blank'>Learn More</a>
+    <a className={classes.liveUrl} href={props.liveLink} target='_blank'>Live App</a>
   </div>
 
   return (
