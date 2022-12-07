@@ -21,9 +21,9 @@ const projects = [
   {
     title: 'Chat Time',
     image: './chat.png',
-    description: '',
+    description: 'Chat Time is an instant-messaging app that allows friends and strangers to chat in real time. Simply sign up and select a user to begin chatting.',
     techStack: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/mpham-12/chat-time',
     liveUrl: '',
   },
   {
@@ -44,7 +44,7 @@ const Projects = () => {
 
 
         {projects.map((project, i) => {
-          return <Project key={i} title={project.title} image={project.image}/>
+          return <Project key={i} title={project.title} image={project.image} description={project.description} techStack={project.techStack} github={project.githubUrl} liveLink={project.liveUrl}/>
         })}
       </div>
     </div>
