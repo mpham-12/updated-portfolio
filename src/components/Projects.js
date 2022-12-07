@@ -4,7 +4,7 @@ import classes from './Projects.module.css'
 const Projects = () => {
   return (
     <div className={classes.projects}>
-      <h2 className={classes.heading}>Projects</h2>
+      <h2 className={classes.heading}>My Work</h2>
       <div className={classes.content}>
 
 
