@@ -53,4 +53,7 @@ padding-left: 70px;
 	.contentp{
 		font-size: 22px;
 	}
+  .content{
+    height: 100%;
+  }
 }
