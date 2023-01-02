@@ -3,27 +3,27 @@ import classes from './Projects.module.css'
 
 const projects = [
   {
-    title: 'Rest & Press',
-    image: './juice.png',
-    description: '',
-    techStack: '',
-    githubUrl: '',
-    liveUrl: '',
-  },
-  {
     title: 'PluggedIn',
     image: './movie.png',
-    description: '',
-    techStack: '',
-    githubUrl: '',
+    description: "PluggedIn is an app that displays updated movie information using TMDB's API. Users can choose a movie to find out general information such as the release date, synopsis, and rating. In addition, users can filter through movies by genre and view categories such as Trending and Most Popular, which are constantly being updated.",
+    techStack: 'HTML, CSS, Javascript, React, React Router, The Movie DB API',
+    githubUrl: 'https://github.com/mpham-12/movie-app',
     liveUrl: '',
   },
   {
     title: 'Chat Time',
     image: './chat.png',
     description: 'Chat Time is an instant-messaging app that allows friends and strangers to chat in real time. Simply sign up and select a user to begin chatting.',
-    techStack: '',
+    techStack: 'HTML, CSS, Javascript, React, React Router, Firebase',
     githubUrl: 'https://github.com/mpham-12/chat-time',
+    liveUrl: '',
+  },
+  {
+    title: 'Rest & Press',
+    image: './juice.png',
+    description: 'Rest & Press is a front-end juice delivery app that offers organic cold-press juices. Users choose juices to add to their cart and submit their order after entering their delivery information into a form.',
+    techStack: 'HTML, CSS, Javascript, React, Firebase',
+    githubUrl: 'https://github.com/mpham-12/green-juice-app',
     liveUrl: '',
   },
   {
@@ -41,7 +41,6 @@ const Projects = () => {
     <div className={classes.projects}>
       <h2 className={classes.heading}>My Work</h2>
       <div className={classes.content}>
-
 
         {projects.map((project, i) => {
           return <Project key={i} title={project.title} image={project.image} description={project.description} techStack={project.techStack} github={project.githubUrl} liveLink={project.liveUrl}/>
