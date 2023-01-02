@@ -18,3 +18,9 @@
 	justify-content: center;
   line-height: 40px;
 }
+
+@media (max-width: 500px) {
+	.heading{
+		font-size: 20px;
+	}
+}

@@ -92,6 +92,11 @@ border: 1px solid rbg(35,35,35);
 }
 
 @media (max-width: 500px) {
+	.project {
+	min-width: 280px;
+	height: auto;
+	}
+
 	.projectTitle {
 		font-size: 16px;
 	}

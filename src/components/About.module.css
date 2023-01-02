@@ -13,3 +13,13 @@
 	color: rgb(71, 70, 70);
 	margin: 0px 50px;
 }
+
+@media (max-width: 500px) {
+	.contentp {
+		margin: 0px 20px;
+		font-size: 16px;
+	}
+	.heading{
+		font-size: 20px;
+	}
+}
