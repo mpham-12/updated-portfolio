@@ -19,8 +19,8 @@ const Project = (props) => {
     <p>{props.description}</p>
     <h3 className={classes.technologiesTitle}>Technologies</h3>
     <p className={classes.technologies}>{props.techStack}</p>
-    <a className={classes.githubUrl} href={props.github} target='_blank'>Learn More</a>
-    <a className={classes.liveUrl} href={props.liveLink} target='_blank'>Live App</a>
+    <a className={classes.githubUrl} href={props.github} target='_blank' rel="noreferrer">Learn More</a>
+    <a className={classes.liveUrl} href={props.liveLink} target='_blank' rel="noreferrer">Live App</a>
   </div>
 
   return (
