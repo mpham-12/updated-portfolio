@@ -14,9 +14,11 @@ const Project = (props) => {
   };
 
   const projectDetails = <div className={classes.projectDetails}>
-    <h2>{props.title}</h2>
+    <h2 className={classes.projectTitle}>{props.title}</h2>
     <img className={classes.modalImage} src={props.image} alt="" />
     <p>{props.description}</p>
+    <h3 className={classes.technologiesTitle}>Technologies</h3>
+    <p className={classes.technologies}>{props.techStack}</p>
     <a className={classes.githubUrl} href={props.github} target='_blank'>Learn More</a>
     <a className={classes.liveUrl} href={props.liveLink} target='_blank'>Live App</a>
   </div>

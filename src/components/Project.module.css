@@ -10,6 +10,10 @@
 	cursor: pointer;
 }
 
+.projectDetails{
+	text-align: center;
+}
+
 .projectImage {
 	display: block;
 	opacity: 0.85;
@@ -54,8 +58,19 @@
 }
 
 .modalImage{
-  width: 200px;
-  height: 300px;
+	max-width: 800px;
+  width: 90%;
+  height: auto;
+}
+
+.technologies{
+margin-top: 0px;
+margin-bottom: 50px;
+font-size: 15px;
+}
+.technologiesTitle{
+margin-bottom: 5px;
+font-size: 15px;
 }
 
 .githubUrl{
@@ -74,4 +89,19 @@ background-color: rgb(35, 35, 35);
 border-radius: 8px;
 padding: 6px 24px;
 border: 1px solid rbg(35,35,35);
+}
+
+@media (max-width: 500px) {
+	.projectTitle {
+		font-size: 16px;
+	}
+	.technologies{
+		font-size: 12px;
+		}
+		.technologiesTitle{
+		font-size: 12px;
+		}
+		.projectDetails{
+			font-size: 14px;
+		}
 }
