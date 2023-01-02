@@ -7,6 +7,7 @@ const technologies = [
   'React',
   'Node',
   'Express',
+  'Typescript',
   'PostgreSQL',
   'MongoDB',
   'Wordpress',
