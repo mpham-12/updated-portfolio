@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'PluggedIn',
     image: './movie.png',
-    description: "PluggedIn is an app that displays updated movie information using TMDB's API. Users can choose a movie to find out general information such as the release date, synopsis, and rating. In addition, users can filter through movies by genre and view categories such as Trending and Most Popular, which are constantly being updated. *Before running this application, please visit <a href='https://cors-anywhere.herokuapp.com/corsdemo'>this link</a> and allow temporary access to the server.*",
+    description: <>PluggedIn is an app that displays updated movie information using TMDB's API. Users can view general information about a movie, and can filter through movies by genre and categories. *Before running this application, please visit <a href='https://cors-anywhere.herokuapp.com/corsdemo'>this link</a> and allow temporary access to the server.*</>,
     techStack: 'HTML, CSS, Javascript, React, React Router, The Movie DB API',
     githubUrl: 'https://github.com/mpham-12/movie-app',
     liveUrl: 'https://velvety-douhua-c0fc98.netlify.app',
