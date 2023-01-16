@@ -7,7 +7,7 @@ const Header = () => {
       <video src={video} autoPlay loop muted defaultMuted playsInline/>
       <div className={classes.content}>
         <p className={classes.contentp}>Hello, I'm Martin Pham.</p>
-        <p className={classes.contentp}>I'm a Front-end Web Developer based in Toronto, Canada.</p>
+        <p className={classes.contentp}>I'm a Full-stack Web Developer based in Toronto, Canada.</p>
       </div>
     </div>
   );

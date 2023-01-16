@@ -12,6 +12,7 @@ const technologies = [
   'MongoDB',
   'Wordpress',
   'Shopify',
+  'Liquid',
   'Squarespace',
   'Sanity IO'
 ];
