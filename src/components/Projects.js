@@ -3,7 +3,14 @@ import classes from './Projects.module.css'
 
 const projects = [
   {
-    title: 'PluggedIn',
+    title: 'Volunteer Markham',
+    image: './volunteermarkham.png',
+    description: 'Volunteer Markham helps build a stronger community through innovative programs that connect volunteers to organizations that need them. This web application is hosted on WordPress and my responsibilities were to follow detailed wireframes and specifications to redesign the website, along with regular maintenaince.',
+    techStack: 'HTML, CSS, Javascript, Wordpress',
+    liveUrl: 'https://volunteermarkham.ca/',
+  },
+  {
+    title: 'Volunteer Markham',
     image: './movie.png',
     description: <>PluggedIn is an app that displays updated movie information using TMDB's API. Users can view general information about a movie, and can filter through movies by genre and categories. *Before running this application, please visit <a href='https://cors-anywhere.herokuapp.com/corsdemo'>this link</a> and allow temporary access to the server.*</>,
     techStack: 'HTML, CSS, Javascript, React, React Router, The Movie DB API',
