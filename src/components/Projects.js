@@ -10,7 +10,7 @@ const projects = [
     liveUrl: 'https://volunteermarkham.ca/',
   },
   {
-    title: 'Volunteer Markham',
+    title: 'PluggedIn',
     image: './movie.png',
     description: <>PluggedIn is an app that displays updated movie information using TMDB's API. Users can view general information about a movie, and can filter through movies by genre and categories. *Before running this application, please visit <a href='https://cors-anywhere.herokuapp.com/corsdemo'>this link</a> and allow temporary access to the server.*</>,
     techStack: 'HTML, CSS, Javascript, React, React Router, The Movie DB API',
